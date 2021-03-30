@@ -7,5 +7,10 @@ c=5+4
 print(c)
 
 print("it's 8:44pm")
-a=5+7
-print(a)
+
+data= pd.read_csv("country_vaccinations.csv")
+
+
+import pandas as pd
+data=pd.read_csv("country_vaccinations.csv")
+print(data)
